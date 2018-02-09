@@ -1,0 +1,50 @@
+{
+  "name": "react-ssr-exercise",
+  "version": "1.0.0",
+  "description": "react ssr exercise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node development.js",
+    "production": "NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akayhu/react-ssr-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akayhu/react-ssr-exercise/issues"
+  },
+  "homepage": "https://github.com/akayhu/react-ssr-exercise#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "isomorphic-style-loader": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "react-scripts": "^1.1.0",
+    "sass-loader": "^6.0.6",
+    "stats-webpack-plugin": "^0.6.2",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-hot-middleware": "^2.21.0",
+    "webpack-hot-server-middleware": "^0.4.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ]
+}
+
+// ES2015將ES2015編譯為ES5。
+// 將JSX語法轉換為createElement調用。
+// stage-0允許我們使用ES7特性，如裝飾器和異步/等待。
