@@ -64,7 +64,6 @@ export default class App extends Component {
 	constructor(props) {
 		super(props);
 	}
-
 	render() {
 		return (
 			<div>
@@ -73,7 +72,7 @@ export default class App extends Component {
 					titleTemplate="%s | React App SSR"
 					titleAttributes={ { itemprop: "name", lang: "en" } }
 					meta={ [
-						{ name: "description", content: "Server side rendering example" },
+						{ name: "description", content: "React 使用 React Router v4，React Helmet和CSS模塊伺服器渲染(SSR) 範例" },
 						{ name: "viewport", content: "width=device-width, initial-scale=1" },
 					] }
 				/>

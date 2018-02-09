@@ -7,7 +7,7 @@ export default ({ markup, helmet }) => {
 			${helmet.meta.toString()}
 			${helmet.link.toString()}
 		</head>
-		<body ${helmet.bodyAttributes.toString()}>
+		<body${helmet.bodyAttributes.toString()}>
 			<div id="root">${markup}</div>
 			<script src="/static/client.js" async></script>
 		</body>
